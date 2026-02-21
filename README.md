@@ -53,22 +53,20 @@ DB_CONFIG = {
     "password": "your_password",
     "port": 5432
 }
+ 
  Run the Project
 python main.py
- How It Works
-
+ 
+ 
+ How It Works:
 Extracts database schema dynamically
-
 Sends schema + user question to Gemini
-
 Gemini generates PostgreSQL query
-
 Query is executed
-
 Results are printed
 
- Example
-
+ 
+ Example:
 Input:
 
 Show top 5 customers by revenue
@@ -80,18 +78,15 @@ FROM orders
 GROUP BY customer_name 
 ORDER BY SUM(amount) DESC 
 LIMIT 5;
- Future Improvements
-
+ 
+ Future Improvements:
 Add query validation layer
-
 Add Streamlit UI
-
 Add SQL injection guardrails
-
 Add logging system
-
 Deploy as Web App
 
+ 
  Author
 
 Amisha Singh
