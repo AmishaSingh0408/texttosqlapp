@@ -34,11 +34,14 @@ psycopg2
 text-to-sql/
 │── main.py
 │── README.md
- Setup Instructions
+
+
+ Setup Instructions:
  Clone Repository
 git clone https://github.com/yourusername/text-to-sql.git
 cd text-to-sql
- Install Dependencies
+
+ Install Dependencies:
 pip install google-generativeai psycopg2
  Configure API & Database
 
